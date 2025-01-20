@@ -1,5 +1,5 @@
 import express from "express";
-import { isAuth } from "../middleware/isauth.js";
+import { isAuth } from "../middleware/isAuth.js";
 import uploadFile from "../middleware/multer.js";
 import {
   commentOnPin,
